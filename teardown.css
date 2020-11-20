@@ -1,0 +1,310 @@
+body{
+    background-color: lightgray
+}
+nav{
+    background-color: tomato;
+    height: 70px;
+}
+#nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#img{
+    height: 50px;
+}
+button{
+    border: none;
+    background-color:tomato;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color:crimson;
+}
+input{
+    width: 300px;
+    border-radius: 10px;
+    background-image: url("search.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+#grid{
+    display: grid;
+    height:1200px;
+    width: 100%;
+    grid-template: repeat(2,600px)/50% 50%;
+    padding-top:0.01%;
+}
+.grid-a,.grid-d{
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+}
+.grid-b,.grid-c{
+    color: white;
+    font-weight: bold;
+    background-color: tomato;
+    text-align: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.sup{
+    display: flex;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+
+
+#hover{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+}
+.hover{
+    max-width: 450px;
+    height: 500px;
+}
+.hover:hover{
+    transition:background-color 0.5s ease;
+    transition:transform 0.5s ease;
+    transform: scale(1.1,1.1);
+    z-index: 20;
+    background-color: white;
+}
+h2,.smash{
+    text-decoration: underline;
+}
+.hover:hover h2{
+    color:red
+}
+#extra{
+    display: flex;
+    height: 600px;
+    justify-content: space-around;
+    background-color: lightgray
+}
+.extra-1{
+    border: solid 1px;
+    margin-top: 80px;
+    height: 230px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+.fist{
+    display: flex;
+    justify-content: center;
+    justify-content: baseline;
+}
+.extra-2{
+    background-color: tomato;
+    width: 800px;
+    margin: 30px;
+    height: 660px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.extra-2 img{
+    height: 250px;
+    width: 250px;
+}
+.extra-11{
+    background-color: lightgray;
+    width: 400px;
+    height: 680px;
+}
+.extra-11:hover{
+    background-color: white;
+
+}
+#latest{
+    padding-top: 150px;
+    text-align: center;
+    text-decoration: red underline;
+    cursor: pointer;
+}
+#latest:hover{
+    color: red;
+}
+#blue{
+    width: 100%;
+    height: 1000px;
+    background-color: blue;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    margin-left: 50px !important;
+}
+.blue-1{
+    display: flex;
+    justify-content: center;
+}
+#blue img{
+    height: 800px;
+    width: 800px;
+    margin-top: 0px;
+}
+#blue button{
+    background-color: white;
+    color: blue;
+    height: 80px;
+    width: 320px;
+    border-radius: 10px;
+}
+#blue button:hover{
+    color: red;
+}
+#contributors{
+    background-color: white;
+}
+#contributors img{
+    height: 80px;
+    width: 80px;
+    transform: rotate(-20deg);
+    padding-top: 20px;
+   
+}
+#game{
+    height: 20px;
+    width: 80px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+#game{
+    transition: all  0.5s ease-out;
+    transform: rotate(-20deg);
+}
+#game:hover{
+    transition: all .5s ease-out;
+    transform-origin: 0 100%;
+    transform: rotate(20deg);
+}
+#game img{
+    border: solid 3px red;
+    border-radius: 5px;
+}
+.image{
+    transform: rotate(-20deg);
+    margin-left: 50px;
+    height: 200px !important;
+    width: 200px !important;
+    border: red 3px solid;
+}
+#image{
+    transition: all  0.5s ease-out;
+    transform: rotate(-20deg);
+}
+#image:hover{
+    transition: all .5s ease-out;
+    transform-origin: 0 100%;
+    transform: rotate(20deg);
+}
+.first{
+    display: grid;
+    grid-template-columns:15% 85%;
+    font-size: 20px;
+    padding-top: 50px;
+}
+#second{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+.second-1{
+    display: flex;
+    max-width: 500px;
+    font-size: 20px;
+}
+
+
+#red{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#red button{
+    background-color: white;
+    color: blue;
+    height: 80px;
+    width: 320px;
+    border-radius: 10px;
+}
+#red button:hover{
+    color: red;
+}
+.rotate{
+    transition: all  0.2s ease-out;
+    transform: rotate(-11deg);
+}
+.rotate:hover{
+    transition: all .2s ease-out;
+    transform-origin: 0 100%;
+    transform: rotate(0deg);
+}
+
+.grids{
+    height: 1300px;
+    width: 1100px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 2fr 3fr;
+    margin:100px;
+    grid-gap:30px;
+}
+.grids-a{
+    background-color: teal;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+}
+.grids-a button{
+    background-color: lightgreen;
+    margin-top: 50px;
+    height: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#grids-a{
+    background-color: royalblue;
+    color: white;
+}
+.input input{
+    height: 50px;
+    background-image: none;
+    outline: none;
+}
+#front{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 350px;
+    font-size: 15px;
+}
+#footer{
+    height:800px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding-top: 30px;
+}
+li{
+    font-size: 25px;
+}
+li::before{
+    content: '.';
+    display: inline-block;
+    position: relative;
+    top: -.2em;
+    margin: 2px;
+}
